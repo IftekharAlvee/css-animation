@@ -1,0 +1,43 @@
+ .container{ 
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+ }
+ .btn1{
+     margin: 2em;
+     padding: 10px 15px;
+     height: 50px;
+     width:150px;
+     font-size: 20px;
+     line-height: 50px;
+     text-align: center;
+     border-radius: .5em;
+     color: white;
+     background-color:red;
+     transition-property: translate();
+     transition-duration: 3s;
+ }
+
+ .btn1:hover{
+     transform: translate(900px,0)
+ }
+
+ #first-btn{
+     transition-delay: 2s;
+ }
+
+ #ease{
+     transation-timing-function: ease;
+ }
+ #linear{
+     transation-timing-function: linear;
+ }
+ #ease-in{
+     transation-timing-function: ease-in;
+ }
+ #ease-out{
+     transation-timing-function: ease-out;
+ }
+ #ease-in-out{
+     transation-timing-function: ease-in-out;
+ }
